@@ -1,9 +1,10 @@
 .App {
-  text-align:start;
+  text-align:center;
+  background-color: rgb(16, 35, 71);
 }
 
 .header {
-  background-color: bisque;;
+  background-color: rgb(6, 25, 54);;
   min-height: 2vh;
   display: flex;
   flex-direction: row;
@@ -11,5 +12,19 @@
   justify-content: center;
   font-size: calc(5px + 1vmin);
   color: white;
+}
+
+h2 {
+  position: left;
+}
+
+.movielist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  margin-left: 20px;
 }
 
